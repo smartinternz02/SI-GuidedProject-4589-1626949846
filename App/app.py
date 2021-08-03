@@ -34,7 +34,7 @@ def upload():
         if preds[0][0] == 1:
             prediction = "Malignent"
         else:
-            prediction = "bening"
+            prediction = "benign"
         
         print("prediction", prediction)
         
